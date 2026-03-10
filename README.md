@@ -97,29 +97,7 @@ This allows the tool to adapt to different use cases such as:
 - CRM notes
 - Support tracking
 - Task logging
-- Structured data collection
-
----
-
-# Project Structure
-
-src/main/java/org/cubicode
-
-Auditacity.java  
-SettingsDialog.java  
-FieldEditorDialog.java  
-DynamicTableModel.java  
-EntryRecord.java  
-FieldDefinition.java  
-
-ImportData.java  
-ExportService.java  
-ProfileService.java  
-PreferencesService.java  
-
-LanguageManager.java  
-ThemeManager.java  
-ValidationService.java  
+- Structured data collection 
 
 ---
 
