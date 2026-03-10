@@ -138,15 +138,43 @@ target/Auditacity.jar
 
 ---
 
+# Adding new languages
+
+Auditacity uses Java resource bundles for translations.
+
+To add a new language:
+
+1. Copy an existing file like messages_en.properties
+2. Rename it to messages_xx.properties
+3. Translate the values
+4. Add the language option in the settings dialog
+
+---
+
 # Creating the Windows EXE
 
 Auditacity can be packaged into a Windows executable using Launch4j.
 
+Launch4j is an open-source tool that wraps a Java application into a native Windows executable.
+
+Download Launch4j here:  
+https://launch4j.sourceforge.net/
+
 Steps:
 
 1. Build the JAR with Maven
-2. Use Launch4j to wrap the JAR
-3. Set header type to GUI
+
+mvn clean package
+
+2. Open Launch4j and select the generated JAR file
+
+target/Auditacity.jar
+
+3. Set the header type to:
+
+GUI
+
+4. Build the executable
 
 Output:
 
