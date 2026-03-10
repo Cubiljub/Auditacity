@@ -334,11 +334,11 @@ public class SettingsDialog extends JDialog {
 
         JLabel languageLabel = new JLabel(languageManager.get("label.language"));
 
-        languageComboBox = new JComboBox<LanguageOption>(new LanguageOption[]{
-                new LanguageOption("de", languageManager.get("language.german")),
-                new LanguageOption("en", languageManager.get("language.english")),
-                new LanguageOption("sr", languageManager.get("language.serbian"))
-        });
+        List<LanguageOption> availableLanguages = languageManager.getAvailableLanguages();
+
+        languageComboBox = new JComboBox<LanguageOption>(
+                availableLanguages.toArray(new LanguageOption[0])
+        );
 
         selectCurrentLanguage();
 
@@ -412,25 +412,6 @@ public class SettingsDialog extends JDialog {
 
     public String getSelectedProfileName() {
         return getCurrentProfileName();
-    }
-
-    private static class LanguageOption {
-        private final String code;
-        private final String displayName;
-
-        public LanguageOption(String code, String displayName) {
-            this.code = code;
-            this.displayName = displayName;
-        }
-
-        public String getCode() {
-            return code;
-        }
-
-        @Override
-        public String toString() {
-            return displayName;
-        }
     }
 
     private static class ThemeOption {
