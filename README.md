@@ -103,16 +103,22 @@ This allows the tool to adapt to different use cases such as:
 
 # Adding new languages
 
-Auditacity uses Java resource bundles for translations and automatically detects available languages.
+Auditacity uses Java resource bundles for translations.
 
-Auditacity scans the resources folder for all `messages_*.properties` files and loads them dynamically.
+Available languages are defined in the `languages.properties` file located in the resources folder.
 
 To add a new language:
 
-1. Copy an existing file such as `messages_en.properties`
+1. Copy an existing translation file such as `messages_en.properties`
 2. Rename it to `messages_xx.properties` (for example `messages_it.properties`)
 3. Translate the values in the file
-4. Set the language name using `language.self`
+4. Add the language code to `languages.properties`
+
+Example:
+
+languages=en,de,sr,fr,ru,it
+
+Each language file must contain a `language.self` entry which defines how the language appears in the user interface.
 
 Example:
 
