@@ -9,7 +9,7 @@ Auditacity is a dynamic ticket tracking and statistics tool built with Java Swin
 
 The application allows users to create custom fields, track entries in a table, and export data to CSV or Excel. Profiles can be saved and loaded, making it easy to adapt the tool to different workflows.
 
-Auditacity was designed as a lightweight, flexible desktop tool for tracking structured information without needing a full database system.
+Auditacity was designed as a lightweight, flexible desktop tool for tracking structured information without requiring a full database system.
 
 ---
 
@@ -42,7 +42,7 @@ Download the file:
 
 Auditacity.exe
 
-*(Note: Windows may show a security warning because the application is not signed with a commercial code-signing certificate. This is normal for independent open-source software. You can proceed by clicking **More info → Run anyway**.)*
+(Note: Windows may show a security warning because the application is not signed with a commercial code-signing certificate. This is normal for independent open-source software. You can proceed by clicking **More info → Run anyway**.)
 
 No installation required.
 
@@ -112,3 +112,54 @@ Java 25
 Maven
 
 Build the project:
+
+mvn clean package
+
+The executable JAR will be created in:
+
+target/Auditacity.jar
+
+---
+
+# Creating the Windows EXE
+
+Auditacity can be packaged into a Windows executable using Launch4j.
+
+Steps:
+
+1. Build the JAR with Maven
+2. Use Launch4j to wrap the JAR
+3. Set header type to GUI
+
+Output:
+
+Auditacity.exe
+
+---
+
+# Roadmap
+
+Future improvements may include:
+
+- Advanced filtering
+- Additional field types (number, date)
+- Plugin system
+- Automatic updates
+- Linux and macOS builds
+
+---
+
+# License
+
+This project is licensed under the MIT License.
+
+See the LICENSE file for details.
+
+---
+
+# Author
+
+Created by Cubicode
+
+GitHub  
+https://github.com/Cubiljub
