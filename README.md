@@ -28,6 +28,8 @@ Auditacity was designed as a lightweight, flexible desktop tool for tracking str
   - English  
   - German  
   - Serbian
+  - French
+  - Russian
 - Executable Windows build (.exe)
 
 ---
