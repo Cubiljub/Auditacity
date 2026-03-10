@@ -214,7 +214,7 @@ See the LICENSE file for details.
 
 # Author
 
-Created by Cubicode
+Created by CubiCode
 
 GitHub  
 https://github.com/Cubiljub
