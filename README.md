@@ -4,6 +4,7 @@
 ![Platform](https://img.shields.io/badge/platform-Windows-lightgrey)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Status](https://img.shields.io/badge/status-active-success)
+![Download](https://img.shields.io/github/v/release/Cubiljub/Auditacity?label=Download)
 
 Auditacity is a dynamic ticket tracking and statistics tool built with Java Swing.
 
