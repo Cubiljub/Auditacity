@@ -121,6 +121,19 @@ ValidationService.java
 
 ---
 
+# Adding new languages
+
+Auditacity uses Java resource bundles for translations.
+
+To add a new language:
+
+1. Copy an existing file like messages_en.properties
+2. Rename it to messages_xx.properties
+3. Translate the values
+4. Add the language option in the settings dialog
+
+---
+
 # Building from Source
 
 Requirements:
@@ -135,19 +148,6 @@ mvn clean package
 The executable JAR will be created in:
 
 target/Auditacity.jar
-
----
-
-# Adding new languages
-
-Auditacity uses Java resource bundles for translations.
-
-To add a new language:
-
-1. Copy an existing file like messages_en.properties
-2. Rename it to messages_xx.properties
-3. Translate the values
-4. Add the language option in the settings dialog
 
 ---
 
