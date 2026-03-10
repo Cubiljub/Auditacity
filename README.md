@@ -123,14 +123,22 @@ ValidationService.java
 
 # Adding new languages
 
-Auditacity uses Java resource bundles for translations.
+Auditacity uses Java resource bundles for translations and automatically detects available languages.
+
+Auditacity scans the resources folder for all `messages_*.properties` files and loads them dynamically.
 
 To add a new language:
 
-1. Copy an existing file like messages_en.properties
-2. Rename it to messages_xx.properties
-3. Translate the values
-4. Add the language option in the settings dialog
+1. Copy an existing file such as `messages_en.properties`
+2. Rename it to `messages_xx.properties` (for example `messages_it.properties`)
+3. Translate the values in the file
+4. Set the language name using `language.self`
+
+Example:
+
+language.self=Italiano
+
+After restarting the application, the new language will automatically appear in the language selection menu.
 
 ---
 
