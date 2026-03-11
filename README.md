@@ -53,33 +53,12 @@ No installation required.
 
 # Screenshots
 
-## Form Interface
-
-![Form1](https://github.com/user-attachments/assets/4da33107-1b63-4923-9fda-32dc7343bb04)
-
-![Form2](https://github.com/user-attachments/assets/80c1ae63-1782-4e62-b5ee-7e7e3532046d)
-
-![Form3](https://github.com/user-attachments/assets/38d4ad5b-198e-40ff-8f1c-2df41a1363e6)
 
 ![Form4](https://github.com/user-attachments/assets/d9b60aa5-875a-4a2d-913e-23d98a6b4a08)
 
-## Table View
-
 ![Table1](https://github.com/user-attachments/assets/5f05316d-107a-407d-938c-60518a88c012)
 
-![Table2](https://github.com/user-attachments/assets/aed8d9fb-b7a6-4d96-8b85-6c386460ee94)
-
-![Table3](https://github.com/user-attachments/assets/22c95715-1ea0-4bd5-bec0-70d31def43bc)
-
-## Settings
-
-![Settings1](https://github.com/user-attachments/assets/a80c343a-7092-4cf8-ad78-c02493ec7f1a)
-
-![Settings2](https://github.com/user-attachments/assets/7b365e0b-673f-4f4c-913f-8caafb475be6)
-
 ![Settings3](https://github.com/user-attachments/assets/2588c8dc-4833-4777-8e3e-0658d76fed8c)
-
-![Settings4](https://github.com/user-attachments/assets/5e1eb1a4-7c3c-4f8f-8371-b3d0031a3632)
 
 ---
 
