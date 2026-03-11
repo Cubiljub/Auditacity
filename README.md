@@ -155,18 +155,6 @@ Auditacity.exe
 
 ---
 
-# Roadmap
-
-Future improvements may include:
-
-- Advanced filtering
-- Additional field types (number, date)
-- Plugin system
-- Automatic updates
-- Linux and macOS builds
-
----
-
 # License
 
 This project is licensed under the MIT License.
