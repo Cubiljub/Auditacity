@@ -165,7 +165,7 @@ See the LICENSE file for details.
 
 # Author
 
-Created by CubiCode
+Created by Cubiljub
 
 GitHub  
 https://github.com/Cubiljub
